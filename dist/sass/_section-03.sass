@@ -1,0 +1,37 @@
+.s03 
+  .area-10 
+    margin: 0
+  .area-11 
+    display: flex
+    flex-direction: column
+    align-items: center
+    span 
+      font-size: 2.0rem
+      margin-bottom: 1.0rem
+  .area-12 
+    margin-bottom: 3.0rem
+    h4 
+      padding: 1.0rem
+      border-radius: 0.5rem
+      background-color: rgba(125, 125, 250, 0.5)
+      &:hover
+        cursor: pointer
+        background-color: rgba(200, 200, 115, 0.5)
+
+    & > .row
+      overflow: hidden
+      transition-property: all
+      transition-duration: 2000ms
+      transition-timing-function: ease-in
+      max-height: 0rem
+    .active 
+      transition-property: all
+      transition-duration: 2000ms
+      transition-timing-function: ease-in
+      max-height: 35.0rem
+      h4 
+        background-color: #ffffaf
+  .area-13 
+    padding: 0 2.0rem
+    display: flex
+    flex-direction: column

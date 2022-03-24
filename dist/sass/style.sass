@@ -1,0 +1,42 @@
+/* Шрифты общие */
+@import fonts
+html, body 
+  position: relative
+  min-height: 100%
+  font-family: "Roboto-L"
+  font-size: 10px
+  line-height: 1.0
+div, header, main, section, footer,
+menu, ul, ol, li, button, img, input
+  display: block
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  border: 0
+  background: transparent
+img 
+  max-width: 100%
+
+/* Стили общие */
+@import common
+
+/* Стили контекстные */
+@import header
+main section 
+  min-height: 100vh
+  box-sizing: border-box
+  padding: 5.0rem 0 5.0rem 0
+  &:nth-last-child(even)
+    background-color: rgba(255, 255, 225, 0.5)
+  &:nth-last-child(odd)
+    background-color: rgba(225, 255, 255, 0.5)
+@import section-01
+@import section-02
+@import section-03
+@import section-04
+@import section-05
+@import section-06
+@import section-07
+@import section-08
+@import footer
+@import adaptive
